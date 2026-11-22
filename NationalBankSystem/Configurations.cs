@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NationalBankSystem
 {
-    internal class BankDbContext
+    internal class Configurations
     {
     }
 }
