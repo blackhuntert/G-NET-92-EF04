@@ -14,7 +14,7 @@ namespace NationalBankSystem.Models
         public string PhoneNumber { get; set; } = string.Empty;
         public int ManagerId { get; set; }
 
-        public Manager manager { get; set; } = null!;
+        public Manager Manager { get; set; } = null!;
 
         public ICollection<Account> Accounts { get; set; } = new List<Account>();
     }
