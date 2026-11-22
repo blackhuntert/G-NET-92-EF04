@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace NationalBankSystem.enums
 {
-    internal class OwnershipRole
+    public enum OwnershipRole
     {
+        Owner = 1,
+        CoOwner = 2,
     }
 }
 

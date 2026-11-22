@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NationalBankSystem.enums
 {
-    internal class AccountType
+    public enum AccountType
     {
+        Savings = 1,
+        Current = 2,
+        FixedDeposit = 3
     }
 }

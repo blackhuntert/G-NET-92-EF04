@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NationalBankSystem.internal enum
+namespace NationalBankSystem. enums
 {
-    internal class CustomerType
-{
-}
+    public enum CustomerType
+    {
+        Individual = 1,
+        Corporate = 2
+    }
 }

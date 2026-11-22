@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace NationalBankSystem. enums
 {
-    internal class AccountStatus
+    public enum AccountStatus
     {
+        Active = 1,
+        Closed = 2,
     }
 }
