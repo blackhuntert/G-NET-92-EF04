@@ -10,6 +10,7 @@ namespace NationalBankSystem.enums
     {
         Savings = 1,
         Current = 2,
-        FixedDeposit = 3
+        FixedDeposit = 3,
+        Business = 4
     }
 }
